@@ -1,0 +1,22 @@
+.searchRelatedItemContainer {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: flex-start;
+    margin: 3rem 0;
+}
+
+.searchRelatedImageContainer {
+    width: 15rem;
+    height: 15rem;
+    margin-right: 3rem;
+}
+
+.searchRelatedImage {
+    width: 15rem;
+    height: 100%;
+}
+
+.searchRelatedPriceContainer {
+    display: flex;
+    align-items: center;
+}

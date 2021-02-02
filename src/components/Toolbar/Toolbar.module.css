@@ -1,0 +1,94 @@
+.ToolbarContainer {
+    width: 100%;
+    background-color: #fff;
+    height: 8rem;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+}
+
+.Toolbar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 4rem 0 2rem;
+    position: relative;
+}
+
+.Toolbar .logo {
+    height: 4rem;
+    margin-right: auto;
+}
+
+.Toolbar .icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    color: #ccc;
+    margin-top: .8rem;
+}
+
+.Toolbar .iconContainer {
+    position: relative;
+    margin-left: auto;
+    cursor: pointer;
+    height: 100%;
+}
+
+.Toolbar .badge {
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    background-color: #fd1783;
+    top: 22%;
+    border-radius: 100px;
+}
+
+.Toolbar .cartIconBadge {
+    right: 20%;
+}
+
+.Toolbar .wishListIconBadge {
+    right: 22%;
+}
+
+.Toolbar .notificationIconBadge {
+    right: 30%;
+}
+
+.loginButton {
+    padding: .8rem 2.5rem;
+    border-radius: 5px;
+    border: 1px solid #fd1783;
+    color: #fd1783;
+    font-size: 1.6rem;
+    font-family: "Poppins";
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    margin-left: auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.loginButton:hover {
+    background-color: #fd1783;
+    border: 1px solid #fd1783;
+    color: #fff;
+}
+
+.signupButton {
+    background-color: #fd1783;
+    border: none;
+    padding: .8rem 2.5rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: "Poppins";
+    border-radius: 5px;
+    border: 1px solid #fd1783;
+    cursor: pointer;
+    margin-left: auto;
+    outline: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}

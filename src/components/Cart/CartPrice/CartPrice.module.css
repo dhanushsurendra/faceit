@@ -1,0 +1,15 @@
+.cartPriceContainer {
+    width: 30%;
+}
+
+.checkout {
+    background-color: #fd1783;
+    color: #fff;
+    padding: 1.6rem 2.5rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}

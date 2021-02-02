@@ -1,0 +1,124 @@
+.productContainer {
+    margin: 18rem 15rem 8rem 15rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.productDetailsContainer > * {
+    margin-bottom: .5rem;
+}
+
+.imageContainer {
+    width: 20rem;
+    height: 20rem;
+    margin-right: 2rem;
+}
+
+.productImage {
+    width: 20rem;
+    height: 100%;
+}
+
+.colorsItemContainer {
+    display: flex;
+    max-width: 20rem;
+    flex-wrap: wrap;
+}
+
+.colors {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100px;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.colors:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.tagItemContainer {
+    display: flex;
+}
+
+.tagItem {
+    border: 1px solid #ccc;
+    border-radius: 10rem;
+    padding: .5rem 2rem;
+    color: #ccc;
+    cursor: pointer;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.tagItem:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.priceContainer {
+    display: flex;
+    align-items: center;
+}
+
+.buyButton {
+    cursor: pointer;
+    padding: .8rem 2rem;
+    background-color: #fd1783;
+    color: #fff;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    margin-right: 1.5rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.addToCartButton {
+    cursor: pointer;
+    padding: .8rem 2rem;
+    background-color: #fd1783;
+    color: #fff;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 2rem !important;
+    cursor: pointer;
+    color: #fd1783 !important;
+}
+
+.link:last-child {
+    margin-top: 2rem !important;
+}
+
+.searchRelatedContainer {
+    margin-top: 10rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.addToCompareButton {
+    color: #fff;
+    background-color: #fd1783;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    font-family: "Poppins";
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20rem;
+    margin-top: 2rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}

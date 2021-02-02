@@ -1,0 +1,22 @@
+.orderSummaryItemContainer {
+    display: flex;
+    align-items: flex-start;
+    margin: 8rem 15rem;
+}
+
+.imageContainer {
+    width: 25rem;
+    height: 25rem;
+    margin-right: 3rem;
+}
+
+.image {
+    width: 25rem;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.orderSummaryPriceContainer {
+    display: flex;
+    align-items: center;
+}

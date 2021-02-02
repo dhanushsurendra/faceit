@@ -1,0 +1,56 @@
+.favItemContainer {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 2px;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 25rem;
+    padding: 2rem;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    object-fit: center;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.favItemDetailsContainer {
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.favItemPriceContainer {
+    display: flex;
+    align-items: center;
+}
+
+.iconContainer {
+    position: absolute;
+    top: 5%;
+    width: 4rem;
+    height: 4rem;
+    right: 5%;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .15);
+    border-radius: 100px;
+    padding: 1rem;
+}
+
+.iconOutline {
+    width: 3rem !important;
+    height: 3rem !important;
+    fill: #ccc !important;
+    transform: translateX(-.5rem) translateY(-.5rem);
+}
+
+.iconFilled {
+    width: 3rem !important;
+    height: 3rem !important;
+    fill: #fd1783 !important;
+    transform: translateX(-.5rem) translateY(-.5rem);
+}

@@ -1,0 +1,14 @@
+.cartContainer {
+    display: flex;
+    margin: 3rem 8rem 10rem 8rem;
+}
+
+.cartItemsContainer {
+    max-width: 70%;
+    margin-right: 3rem;
+}
+
+.noResult {
+    height: 30rem;
+    margin-top: 5rem;
+}

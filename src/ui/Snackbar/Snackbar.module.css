@@ -1,0 +1,11 @@
+.snackbarContainer {
+    width: 30rem;
+    padding: 1rem 2rem;
+    color: #fff;
+    position: absolute;
+    z-index: 10000;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #171717;
+}

@@ -1,0 +1,70 @@
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 3rem;
+    flex-direction: column;
+    position: relative;
+}
+
+.inputClass {
+    outline: none;
+    padding: 1rem 3rem 1rem 5rem;
+    border: 1px solid #ccc;
+    transition: all .3s;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.inputClass::placeholder {
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.inputClass:focus {
+    border: 1px solid #fd1783;
+}
+
+.invalid {
+    border: 1px solid #ff0000;
+}
+
+.label {
+    text-transform: capitalize;
+    justify-self: flex-start;
+    align-self: flex-start;
+    padding-left: 7rem;
+    padding-bottom: 1rem;
+    color: #333;
+}
+
+.iconContainer svg {
+    position: absolute;
+    justify-self: flex-start;
+    left: 24%;
+    bottom: 22%;
+    width: 2rem !important;
+    height: 2rem !important;
+    color: #fd1783;
+}
+
+.error {
+    color: #fd1783;
+    align-self: flex-start;
+    margin-left: 10rem;
+    font-size: 1.4rem;
+}
+
+.select::-ms-expand {
+    display: none;
+    width: 100%;
+}
+
+.select {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30rem;
+    padding-left: 2rem;
+}

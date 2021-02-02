@@ -1,0 +1,31 @@
+.errorModalContainer {
+    width: 40%;
+    z-index: 6000 !important;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.errorContainer {
+    background-color: #fff;
+    padding: 2rem 4rem 4rem 4rem;
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.errorButton {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    background-color: #fd1783;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}

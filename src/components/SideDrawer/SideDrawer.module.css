@@ -1,0 +1,122 @@
+.sideDrawer {
+    position: fixed;
+    z-index: 6000;
+    width: 300px;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+    transition: all .3s ease-in;
+}
+
+.open {
+    transform: translateX(0);
+}
+
+.close {
+    transform: translateX(-100%);
+}
+
+.logo {
+    height: 6rem;
+    margin: 2rem 0;
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.profile {
+    background-color: #fff;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .15);
+    margin-bottom: 2rem;
+}
+
+.username {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.list {
+    align-self: flex-start;
+    width: 100%;
+    margin: 2rem;
+    margin-bottom: 0;
+}
+
+.navLink {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.indicator {
+    height: 4rem;
+    width: 5px;
+    background-color: #fd1783;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    margin-left: auto;
+    margin-right: 2rem;
+    transform: scaleY(0);
+    transition: all .3s;
+}
+
+.navLink p {
+    font-size: 1.6rem;
+    color: #ccc;
+    transition: all .3s;
+}
+
+.home p,
+.cart p,
+.orders p,
+.compare p,
+.wishlist p,
+.settings p,
+.navLink:hover p,
+.navLink:active {
+    color: #fd1783 !important;
+}
+
+.home .drawerIcon,
+.cart .drawerIcon,
+.compare .drawerIcon,
+.orders .drawerIcon,
+.wishlist .drawerIcon,
+.settings .drawerIcon,
+.navLink:hover .drawerIcon,
+.navLink:active {
+    fill: #fd1783 !important;
+}
+
+.drawerIcon {
+    width: 3rem !important;
+    height: 3rem !important;
+    fill: #ccc !important;
+    margin-right: 2rem;
+    transition: all .3s !important;
+}
+
+.home .indicator,
+.cart .indicator,
+.compare .indicator,
+.settings .indicator,
+.wishlist .indicator,
+.orders .indicator,
+.navLink:hover .indicator{
+    transform: scaleY(1);
+}

@@ -1,0 +1,16 @@
+.addToWishlist {
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background-color: #fd1783;
+    border: none;
+    outline: none;
+    display: block;
+    font-size: 1.6rem;
+    font-family: "Poppins";
+    border-radius: 5px;
+    margin: 1rem auto;
+    width: 28rem;
+    max-width: 30rem;
+    cursor: pointer;
+}
+
